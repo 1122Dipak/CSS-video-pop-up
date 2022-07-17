@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS video pop-up</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/script.js"></script>
+  </head>
+
+  <body class="background">
+    <section class="videoPopUp">
+      <div class="playingSection">
+        <p>Course Preview</p>
+        <p id="playing">Unit 1| Introduction to addition</p>
+        <iframe
+          src="https://www.youtube.com/embed/W6NZfCO5SIk"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          class="videoPlayed"
+        ></iframe>
+      </div>
+      <p>All course videos:</p>
+      <section class="videosList">
+        <div class="playList" onclick="selected(this) ">
+          <img src="img/1.jpg" alt="" class="thumbnail" />
+          <p class="unit">Unit 1| Introduction to Lorem.</p>
+          <p class="time">03:25</p>
+        </div>
+        <div class="playList" onclick="selected(this)">
+          <img src="img/1.jpg" alt="" class="thumbnail" />
+          <p class="unit">Unit 2|History of Lorem.</p>
+          <p class="time">12:48</p>
+        </div>
+        <div class="playList" onclick="selected(this)">
+          <img src="img/1.jpg" alt="" class="thumbnail" />
+          <p class="unit playButton">Unit 3|Test your knowledge.</p>
+          <p class="time">07:52</p>
+        </div>
+        <div class="playList" onclick="selected(this)">
+          <img src="img/1.jpg" alt="" class="thumbnail" />
+          <p class="unit">Unit 4|Test your knowledge on Lorem, ipsum.</p>
+          <p class="time">03:47</p>
+        </div>
+        <div class="playList" onclick="selected(this)">
+          <img src="img/1.jpg" alt="" class="thumbnail" />
+          <p class="unit">Unit 5|Lorem-Introduction & types of Lorem.</p>
+          <p class="time">8:33</p>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>

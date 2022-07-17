@@ -1,0 +1,53 @@
+body {
+    margin: 20px;
+}
+
+.background {
+    background-color: #000000;
+    color: white;
+}
+
+.playList {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-items: left;
+}
+
+.thumbnail{
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.unit {
+    width: 90%;
+    
+}
+
+.videosList {
+    background-color: #1d1d1e;
+    margin: 0;
+}
+
+.time {
+    margin-right: 10px;
+}
+
+.videoPlayed {
+    
+    width: 560px;
+    height: 315px;
+}
+
+.videoPopUp {
+    width: 560px;
+    justify-content: center;
+    margin-left:  auto;
+    margin-right: auto;
+}
+
+.playingSection {
+
+}
